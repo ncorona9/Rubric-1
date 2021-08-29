@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Rubric 1 Assignment</title>
+     <script src="script.js" defer></script> 
+  </head>
+  
+  <body>
+    <h1>Welcome Traveler!</h1>
+      <script type="text/javascript">
+      document.write("My name is Nadia.")
+      </script>
+    <br>
+    <br>
+      <button onclick="travelerName()">What's your Name?</button>
+      <p id="name"></p>
+
+    <p>
+      I am writing this from the past. By the time this webpage is opened, I will be gone.
+      <br>
+      <br>
+      <i>Is this your correct time?</i>
+    </p>
+    <div id="MyClockDisplay" class="clock" onload="showTime()"></div>
+    <p>
+      <i>Is this your current year?</i> 
+    </p>
+    <p id="year"></p>
+    <script>
+    var x = 21;
+    x += 2000;
+    document.getElementById("year").innerHTML = x;
+    </script>
+    <p><b>
+    ...Hm, I seem to know a lot about your current time frame. Perhaps we will meet soon.  
+    </b></p>
+
+    <button onclick="myFunction()">Exit Page</button>
+    <script>
+    function myFunction() {
+      alert("Leaving so soon? Until next time, Goodbye.");
+    }
+    </script>
+    
+</body>
+
+</html>
